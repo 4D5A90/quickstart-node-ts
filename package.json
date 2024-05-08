@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node dist/index.js",
+    "build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
     "dev": "tsx src/index.ts",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "pnpm run lint -- --fix"
