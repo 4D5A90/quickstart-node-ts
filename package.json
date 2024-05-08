@@ -1,0 +1,21 @@
+{
+  "name": "quick-start-node-ts",
+  "description": "A quick start template for Node.js with TypeScript, ESLint. CI/CD ready with GitHub Actions (Fly.io)",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "pnpm run lint -- --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "esbuild": "^0.21.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.0.3",
+    "tsx": "^4.9.3",
+    "typescript": "^5.2.2"
+  }
+}
