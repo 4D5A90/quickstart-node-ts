@@ -18,9 +18,5 @@ jobs:
       - name: Setup flyctl
         uses: superfly/flyctl-actions/setup-flyctl@master
 
-      - name: Create configuration files
-        run: |
-          echo "${{ secrets.ENV_FILE }}" > .env
-
       - name: Deploy
         run: flyctl deploy
