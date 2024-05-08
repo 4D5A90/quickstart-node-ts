@@ -32,19 +32,19 @@ Easily kickstart your Node.js projects using TypeScript. Comes pre-configured wi
 > 1. Clone the quick-start-node-ts repository:
 >
 > ```console
-> $ git clone https://github.com/4D5A90/quick-start-node-ts my-ts-project
+> git clone https://github.com/4D5A90/quick-start-node-ts my-ts-project
 > ```
 >
 > 2. Change to the project directory:
 >
 > ```console
-> $ cd my-ts-project
+> cd my-ts-project
 > ```
 >
 > 3. Install the dependencies:
 >
 > ```console
-> $ > pnpm install
+> pnpm install
 > ```
 
 ### Usage
@@ -54,7 +54,7 @@ Easily kickstart your Node.js projects using TypeScript. Comes pre-configured wi
 > Run quick-start-node-ts using the command below:
 >
 > ```console
-> $ > pnpm build && pnpm start
+> pnpm build && pnpm start
 > ```
 >
 > to run the project in development mode:
@@ -62,3 +62,9 @@ Easily kickstart your Node.js projects using TypeScript. Comes pre-configured wi
 > ```console
 > $ > pnpm dev
 > ```
+
+### CI/CD
+
+- Get your fly.io [deploy token](https://fly.io/docs/reference/deploy-tokens/)
+- Create new [repository secrets](https://docs.github.com/fr/actions/security-guides/using-secrets-in-github-actions) named FLY_TOKEN and paste your fly.io deploy token
+
