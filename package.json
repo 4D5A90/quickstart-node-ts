@@ -1,5 +1,5 @@
 {
-  "name": "quick-start-node-ts",
+  "name": "quickstart-node-ts",
   "description": "A quick start template for Node.js with TypeScript, ESLint. CI/CD ready with GitHub Actions (Fly.io)",
   "version": "1.0.0",
   "scripts": {
