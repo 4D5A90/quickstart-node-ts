@@ -8,9 +8,7 @@ Easily kickstart your Node.js projects using TypeScript. Comes pre-configured wi
 
 - TypeScript Support: Write your Node.js code in TypeScript, enabling type safety and improved developer productivity.
 
-- ESLint Integration: Catch potential errors and enforce consistent code style with ESLint, ensuring code quality throughout your project.
-
-- Prettier Support: Maintain consistent code formatting effortlessly with Prettier, enhancing code readability and collaboration within your team.
+- Biome Integration: Catch potential errors and enforce consistent code style with Biome, ensuring code quality throughout your project. And maintain consistent code formatting effortlessly with, enhancing code readability and collaboration within your team.
 
 - esbuild for Bundling: Leverage esbuild to bundle your TypeScript code efficiently, optimizing performance and reducing bundle sizes.
 
